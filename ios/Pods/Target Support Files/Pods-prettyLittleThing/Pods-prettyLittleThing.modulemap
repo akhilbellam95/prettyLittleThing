@@ -1,0 +1,6 @@
+module Pods_prettyLittleThing {
+  umbrella header "Pods-prettyLittleThing-umbrella.h"
+
+  export *
+  module * { export * }
+}
