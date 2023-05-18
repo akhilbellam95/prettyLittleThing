@@ -5,6 +5,7 @@ import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
 import { RootState } from '../store';
 import { getProducts } from '../Features/Cart/productSlice';
 import AddRemoveItem from './AddRemoveItem';
+import FastImage from 'react-native-fast-image';
 
 interface Product {
   id: number;
@@ -27,7 +28,11 @@ const Item = ({ product }: { product: Product }): JSX.Element => {
   return (
     <View style={styles.card}>
       <View style={styles.alignCenter}>
-        <Image source={{ uri: product.img }} style={styles.productImage} />
+        <FastImage
+          source={{ uri: product.img, priority: FastImage.priority.normal }}
+          style={styles.productImage}
+          resizeMode={FastImage.resizeMode.contain}
+        />
       </View>
 
       <View style={styles.productDetails}>
@@ -73,7 +78,6 @@ const Products = () => {
 
   useEffect(() => {
     dispatch(getProducts());
-    console.log('Getting Products');
   }, []);
 
   return (
@@ -112,7 +116,7 @@ const styles = StyleSheet.create({
     paddingTop: 15,
   },
   productImage: {
-    width: 250,
+    width: 280,
     height: 500,
   },
   label: {

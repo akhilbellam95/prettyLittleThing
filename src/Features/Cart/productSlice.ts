@@ -16,7 +16,6 @@ export const cartSlice = createSlice({
 });
 
 export const getProducts = (): any => async (dispatch: AppDispatch) => {
-  console.log('Reached here');
   try {
     const res = await fetch('https://my-json-server.typicode.com/benirvingplt/products/products');
     const data = await res.json();
