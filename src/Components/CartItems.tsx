@@ -104,12 +104,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     backgroundColor: 'white',
     marginBottom: 10,
+    flexDirection: 'row',
+    paddingVertical: 10,
   },
   cartItems: {
     fontWeight: 'bold',
     marginBottom: 20,
-    paddingVertical: 10,
-    flexDirection: 'row',
   },
   cartTotal: {
     width: 150,

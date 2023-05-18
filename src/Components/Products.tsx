@@ -1,8 +1,10 @@
 import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
 import { RootState } from '../store';
+import axios from 'axios';
+import { getProducts } from '../Features/Cart/productSlice';
 
 interface Product {
   id: number;
@@ -77,7 +79,18 @@ const Item = ({ product }: { product: Product }): JSX.Element => {
   );
 };
 
-const Products = ({ products }: Products) => {
+const Products = () => {
+  const dispatch = useDispatch();
+
+  const { products } = useSelector((state: RootState) => state.product);
+
+  useEffect(() => {
+    axios
+      .get('https://my-json-server.typicode.com/benirvingplt/products/products')
+      .then((res) => dispatch(getProducts(res.data)))
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <View>
       <FlatList data={products} renderItem={({ item }) => <Item product={item} />} />

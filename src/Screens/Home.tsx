@@ -10,21 +10,11 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 const Home = (): JSX.Element => {
   const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
-  const dispatch = useDispatch();
-
-  const { products } = useSelector((state: RootState) => state.product);
-
-  useEffect(() => {
-    axios
-      .get('https://my-json-server.typicode.com/benirvingplt/products/products')
-      .then((res) => dispatch(getProducts(res.data)))
-      .catch((err) => console.log(err));
-  }, []);
 
   return (
     <View style={styles.container}>
       <View style={{ flex: 1 }}>
-        {products.length > 0 ? <Products products={products} /> : null}
+        <Products />
       </View>
       <View style={styles.cartButtonBox}>
         <Pressable style={styles.cartButton} onPress={() => navigation.navigate('Cart')}>
@@ -44,7 +34,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   cartButton: {
-    backgroundColor: 'skyblue',
+    backgroundColor: '#FDBEDB',
     borderColor: 'black',
     borderWidth: 1,
     height: 50,
