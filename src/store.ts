@@ -8,6 +8,7 @@ export const store = configureStore({
     cart: cartReducer,
     product: productReducer,
   },
+  devTools: process.env.NODE_ENV !== 'production',
 });
 
 export type AppDispatch = typeof store.dispatch;

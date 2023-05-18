@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
 import { RootState } from '../store';
-import axios from 'axios';
 import { getProducts } from '../Features/Cart/productSlice';
 import AddRemoveItem from './AddRemoveItem';
 
@@ -69,15 +68,12 @@ const Item = ({ product }: { product: Product }): JSX.Element => {
 };
 
 const Products = () => {
+  const { products } = useSelector((state: RootState) => state.product);
   const dispatch = useDispatch();
 
-  const { products } = useSelector((state: RootState) => state.product);
-
   useEffect(() => {
-    axios
-      .get('https://my-json-server.typicode.com/benirvingplt/products/products')
-      .then((res) => dispatch(getProducts(res.data)))
-      .catch((err) => console.log(err));
+    dispatch(getProducts());
+    console.log('Getting Products');
   }, []);
 
   return (
