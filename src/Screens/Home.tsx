@@ -1,11 +1,7 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Products from '../Components/Products';
-import axios from 'axios';
 import { ParamListBase, useNavigation } from '@react-navigation/native';
-import { useDispatch, useSelector } from 'react-redux';
-import { getProducts } from '../Features/Cart/productSlice';
-import { RootState } from '../store';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 const Home = (): JSX.Element => {

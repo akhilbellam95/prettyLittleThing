@@ -2,7 +2,7 @@ import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import AddRemoveItem from './AddRemoveItem';
-import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
+import { addToCart, removeFromCart, updateTotal } from '../Features/Cart/cartSlice';
 import { RootState } from '../store';
 
 type ItemProps = {
@@ -73,6 +73,10 @@ const CartItems = () => {
       }
     });
   }, [products]);
+
+  const dispatch = useDispatch();
+
+  if (cartItems.length === 0) dispatch(updateTotal(0));
 
   return (
     <View style={styles.container}>

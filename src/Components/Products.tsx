@@ -5,6 +5,7 @@ import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
 import { RootState } from '../store';
 import axios from 'axios';
 import { getProducts } from '../Features/Cart/productSlice';
+import AddRemoveItem from './AddRemoveItem';
 
 interface Product {
   id: number;
@@ -51,23 +52,11 @@ const Item = ({ product }: { product: Product }): JSX.Element => {
       <View style={{ alignItems: 'flex-end' }}>
         {itemInCart ? (
           // Add & Remove from cart buttons with quantity
-          <View style={[styles.row, { width: 120, borderColor: 'black', borderWidth: 1 }]}>
-            <View style={styles.seperator} />
-            <Pressable
-              style={styles.addRemoveBtn}
-              onPress={() => dispatch(removeFromCart(product))}
-            >
-              <Text style={styles.textCenter}>-</Text>
-            </Pressable>
-
-            <View style={styles.quantityBox}>
-              <Text style={styles.quantity}>{cartItems[itemIndex].quantity}</Text>
-            </View>
-
-            <Pressable style={styles.addRemoveBtn} onPress={() => dispatch(addToCart(product))}>
-              <Text style={styles.textCenter}>+</Text>
-            </Pressable>
-          </View>
+          <AddRemoveItem
+            addPressed={() => dispatch(addToCart(product))}
+            removePressed={() => dispatch(removeFromCart(product))}
+            quantity={cartItems[itemIndex].quantity}
+          />
         ) : (
           // Add to cart button
           <Pressable style={styles.button} onPress={() => dispatch(addToCart(product))}>
@@ -101,11 +90,6 @@ const Products = () => {
 export default Products;
 
 const styles = StyleSheet.create({
-  addRemoveBtn: {
-    flex: 1,
-    backgroundColor: 'yellow',
-    justifyContent: 'center',
-  },
   alignCenter: {
     alignItems: 'center',
   },
@@ -138,14 +122,6 @@ const styles = StyleSheet.create({
   label: {
     width: 60,
     marginBottom: 5,
-  },
-  quantity: {
-    width: 40,
-    textAlign: 'center',
-  },
-  quantityBox: {
-    height: 40,
-    justifyContent: 'center',
   },
   row: {
     flexDirection: 'row',

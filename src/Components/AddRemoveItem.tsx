@@ -26,7 +26,6 @@ const AddRemoveItem = ({
       <Pressable style={styles.addRemoveBtn} onPress={() => addPressed()}>
         <Text style={styles.textCenter}>+</Text>
       </Pressable>
-      {/* <Text>Hello</Text> */}
     </View>
   );
 };
