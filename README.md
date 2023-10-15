@@ -52,6 +52,8 @@ $ cd ios && pod install
 $ yarn ios
 ```
 
+Alternatively we can open the file ios/prettyLittleThing.xcworkspace and click Run from xcode.
+
 ## Test
 
 ```bash
