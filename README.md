@@ -69,6 +69,6 @@ $ yarn test:coverage
 ## Known issue with xCode 14.3
 In the log we see the following error:
 
-Error: Unable to resolve module ./Libraries/Components/DatePicker/DatePickerIOS from /Users/pooja/Desktop/prettyLittleThing/node_modules/react-native/index.js:
+Error: Unable to resolve module ./Libraries/Components/DatePicker/DatePickerIOS
 
 https://stackoverflow.com/questions/75913909/react-native-error-unable-to-resolve-module-in-node-modules-react-native-inde
