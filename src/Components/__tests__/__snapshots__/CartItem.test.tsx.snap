@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem component testing renders correctly 1`] = `<View />`;
+
+exports[`CartItem component testing should add product to cart 1`] = `<View />`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddRemoveItem component testing renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "borderColor": "black",
+        "borderWidth": 1,
+        "width": 120,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "height": 20,
+      }
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "yellow",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    testID="remove-btn"
+  >
+    <Text
+      style={
+        {
+          "textAlign": "center",
+        }
+      }
+    >
+      -
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "height": 40,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      30
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "yellow",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    testID="add-btn"
+  >
+    <Text
+      style={
+        {
+          "textAlign": "center",
+        }
+      }
+    >
+      +
+    </Text>
+  </View>
+</View>
+`;

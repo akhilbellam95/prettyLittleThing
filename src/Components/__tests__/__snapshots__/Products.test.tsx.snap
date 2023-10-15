@@ -1,0 +1,1104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products component testing renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      [
+        {
+          "colour": "Black",
+          "id": 1,
+          "img": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+          "name": "Black Sheet Strappy Textured Glitter Bodycon Dress",
+          "price": 10,
+        },
+        {
+          "colour": "Stone",
+          "id": 2,
+          "img": "https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024",
+          "name": "Stone Ribbed Strappy Cut Out Detail Bodycon Dress",
+          "price": 4,
+        },
+        {
+          "colour": "Black",
+          "id": 3,
+          "img": "https://cdn-img.prettylittlething.com/d/c/3/3/dc337260f9ecefdb99a8c8e98cd73ccb1b79cea5_cmb6804_4.jpg?imwidth=1024",
+          "name": "Black Frill Tie Shoulder Bodycon Dress",
+          "price": 7.99,
+        },
+        {
+          "colour": "Red",
+          "id": 5,
+          "img": "https://cdn-img.prettylittlething.com/f/7/1/8/f718a4011ddf92f48aeefff6da0f475178694599_cly0842_1.jpg?imwidth=1024",
+          "name": "Red Pin Stripe Belt T Shirt Dress",
+          "price": 17,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderWidth": 1,
+              "marginHorizontal": 20,
+              "marginVertical": 10,
+              "padding": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "height": 500,
+                    "width": 280,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={null}
+                resizeMode="contain"
+                source={
+                  {
+                    "priority": "normal",
+                    "uri": "http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "borderTopColor": "black",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Name: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Black Sheet Strappy Textured Glitter Bodycon Dress
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Price: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                10
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Colour: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Black
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            style={
+              {
+                "alignItems": "flex-end",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "borderColor": "black",
+                    "borderWidth": 1,
+                    "width": 120,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "height": 20,
+                  }
+                }
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "yellow",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+                testID="remove-btn"
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  -
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "height": 40,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  2
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "yellow",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+                testID="add-btn"
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderWidth": 1,
+              "marginHorizontal": 20,
+              "marginVertical": 10,
+              "padding": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "height": 500,
+                    "width": 280,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={null}
+                resizeMode="contain"
+                source={
+                  {
+                    "priority": "normal",
+                    "uri": "https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "borderTopColor": "black",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Name: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Stone Ribbed Strappy Cut Out Detail Bodycon Dress
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Price: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Colour: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Stone
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            style={
+              {
+                "alignItems": "flex-end",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "borderColor": "black",
+                    "borderWidth": 1,
+                    "width": 120,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "height": 20,
+                  }
+                }
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "yellow",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+                testID="remove-btn"
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  -
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "height": 40,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  1
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "yellow",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+                testID="add-btn"
+              >
+                <Text
+                  style={
+                    {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderWidth": 1,
+              "marginHorizontal": 20,
+              "marginVertical": 10,
+              "padding": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "height": 500,
+                    "width": 280,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={null}
+                resizeMode="contain"
+                source={
+                  {
+                    "priority": "normal",
+                    "uri": "https://cdn-img.prettylittlething.com/d/c/3/3/dc337260f9ecefdb99a8c8e98cd73ccb1b79cea5_cmb6804_4.jpg?imwidth=1024",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "borderTopColor": "black",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Name: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Black Frill Tie Shoulder Bodycon Dress
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Price: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                7.99
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Colour: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Black
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            style={
+              {
+                "alignItems": "flex-end",
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "yellow",
+                  "borderColor": "black",
+                  "borderWidth": 1,
+                  "height": 40,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 20,
+                  "position": "relative",
+                  "width": 120,
+                }
+              }
+              testID="add-to-cart"
+            >
+              <Text
+                style={
+                  {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Add to Cart
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderWidth": 1,
+              "marginHorizontal": 20,
+              "marginVertical": 10,
+              "padding": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "height": 500,
+                    "width": 280,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={null}
+                resizeMode="contain"
+                source={
+                  {
+                    "priority": "normal",
+                    "uri": "https://cdn-img.prettylittlething.com/f/7/1/8/f718a4011ddf92f48aeefff6da0f475178694599_cly0842_1.jpg?imwidth=1024",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "borderTopColor": "black",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingTop": 15,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Name: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Red Pin Stripe Belt T Shirt Dress
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Price: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                17
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "marginBottom": 5,
+                    "width": 60,
+                  }
+                }
+              >
+                Colour: 
+              </Text>
+              <Text
+                style={
+                  {
+                    "width": "75%",
+                  }
+                }
+              >
+                Red
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            style={
+              {
+                "alignItems": "flex-end",
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "yellow",
+                  "borderColor": "black",
+                  "borderWidth": 1,
+                  "height": 40,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 20,
+                  "position": "relative",
+                  "width": 120,
+                }
+              }
+              testID="add-to-cart"
+            >
+              <Text
+                style={
+                  {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Add to Cart
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
