@@ -1,7 +1,6 @@
 import { Pressable, Text, View } from 'react-native';
 import React from 'react';
 import { addToCart, removeFromCart } from '../Features/Cart/cartSlice';
-import { RootState } from '../store';
 import AddRemoveItem from './AddRemoveItem';
 import FastImage from 'react-native-fast-image';
 import { Product, styles } from './Products';
@@ -17,9 +16,10 @@ export const ProductItem = ({ product }: { product: Product }): JSX.Element => {
     <View style={styles.card}>
       <View style={styles.alignCenter}>
         <FastImage
-          source={{ uri: product.img, priority: FastImage.priority.normal }}
+          source={{ uri: product.img, priority: FastImage.priority.high }}
           style={styles.productImage}
           resizeMode={FastImage.resizeMode.contain}
+          
         />
       </View>
 
